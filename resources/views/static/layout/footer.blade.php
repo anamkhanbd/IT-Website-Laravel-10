@@ -89,7 +89,7 @@
         </div>
         <div class="row iq-mt-40">
             <div class="col-sm-12 text-center">
-                <div class="footer-copyright iq-ptb-20">Copyright @<span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a href="javascript:void(0)" class="text-green">Sofbox.</a> All Rights Reserved </div>
+                <div class="footer-copyright iq-ptb-20">Copyright @<span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a href="javascript:void(0)" class="text-green">RimonIT Solution.</a> All Rights Reserved </div>
             </div>
         </div>
     </div>
