@@ -1,6 +1,6 @@
 @extends('static.layout.master-layout')
 @section('title')
-    Rimonit Solution
+    Home Page 
 @endsection
 @section('content')
     <!-- Banner -->
@@ -16,7 +16,7 @@
                     <div class="col-md-6">
                         <div class="iq-banner-video">
                             <div class="waves-box">
-                                <a href="video/01.mp4" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
+                                <a href="https://www.youtube.com/watch?v=UmFOpcp8Ma4&t=5s" class="iq-video popup-youtube"><i class="fas fa-play"></i></a>
                                 <div class="iq-waves">
                                     <div class="waves wave-1"></div>
                                     <div class="waves wave-2"></div>
@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="heading-title">
-                            <h3 class="title iq-tw-7">How it Works</h3>
+                            <h3 class="title iq-tw-7">About <span>RangpurIT</span> care</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley,</p>
                         </div>
                     </div>
@@ -61,22 +61,22 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-4">
                         <div class="iq-works-box round-icon text-center">
-                            <div class="icon-bg center-block"><i aria-hidden="true" class="ion-ios-monitor-outline"></i></div>
+                            <div class="icon-bg center-block"><i aria-hidden="true" class="fab fa-sketch"></i></div>
                             <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Fully Responsive</h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4">
                         <div class="iq-works-box round-icon text-center">
-                            <div class="icon-bg center-block"><i aria-hidden="true" class="ion-ios-albums-outline"></i></div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Well Documented</h5>
+                            <div class="icon-bg center-block"><i aria-hidden="true" class="fas fa-layer-group"></i></div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Web Design</h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4">
                         <div class="iq-works-box round-icon text-center">
-                            <div class="icon-bg center-block"><i aria-hidden="true" class="ion-ios-color-wand-outline"></i></div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Easy To Use</h5>
+                            <div class="icon-bg center-block"><i aria-hidden="true" class="fas fa-terminal"></i></div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Web Development</h5>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                         </div>
                     </div>
@@ -88,8 +88,8 @@
         <section id="how-works" class="overview-block-ptb how-works text-right">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="iq-tw-6 iq-mb-25">What is Sofbox ?</h2>
+                    <div class="col-md-6" id="a-learn-more">
+                        <h2 class="iq-tw-6 iq-mb-25">Learn more <span>RangpurIT</span> care </h2>
                         <p class="iq-font-15">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <p class="iq-font-15 iq-mt-20">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         <h6 class="iq-tw-6 iq-mt-25">Discover our best ever services.</h6>
@@ -123,16 +123,55 @@
             </div>
             <div class="container">
                 <div class="row justify-content-end">
+                    <div class="col-12">
+                        <h2 class="iq-tw-6 iq-mb-25 blue text-left">Software Features</h2>
+                    </div>
                     <div class="col-lg-6">
-                        <h2 class="iq-tw-6 iq-mb-25">Software Features</h2>
-                        <p class="iq-font-15">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <ul class="iq-mt-40 iq-list">
+                        
+                         {{--faq add external use sasc and js --}}
+                         <div id="faq">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                  <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Why is the moon sometimes out during the day</span><span class="icon" aria-hidden="true"></span></button>
+                                  <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Why is the sky blue</span><span class="icon" aria-hidden="true"></span></button>
+                                  <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens</span><span class="icon" aria-hidden="true"></span></button>
+                                  <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh</span><span class="icon" aria-hidden="true"></span></button>
+                                  <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up</span><span class="icon" aria-hidden="true"></span></button>
+                                  <div class="accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        {{--<ul class="iq-mt-40 iq-list">
                             <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Simply dummy text of the Lorem Ipsum is printing and type setting industry.</span></li>
                             <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Simply dummy text of the Lorem Ipsum is printing and type setting industry.</span></li>
                             <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Simply dummy text of the Lorem Ipsum is printing and type setting industry.</span></li>
                             <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Simply dummy text of the Lorem Ipsum is printing and type setting industry.</span></li>
                             <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Simply dummy text of the Lorem Ipsum is printing and type setting industry.</span></li>
-                        </ul>
+                        </ul>--}}
                     </div>
                 </div>
             </div>
@@ -235,7 +274,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="heading-title">
-                            <h3 class="title iq-tw-7">Sofbox Specialities </h3>
+                            <h3 class="title iq-tw-7">RangpurIT Specialities </h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley,</p>
                         </div>
                     </div>
@@ -244,7 +283,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-monitor-outline"></i>
+                                <i aria-hidden="true" class="fas fa-feather-alt"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">High Resolution</h5>
@@ -255,7 +294,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-settings"></i>
+                                <i aria-hidden="true" class="fas fa-fill-drip"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Color Schemes</h5>
@@ -266,7 +305,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6 r-mt-30">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-social-googleplus-outline"></i>
+                                <i aria-hidden="true" class="fas fa-font"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Google Fonts</h5>
@@ -277,7 +316,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6 r-mt-30">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-heart-outline"></i>
+                                <i aria-hidden="true" class="fas fa-code"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Clean Codes</h5>
@@ -288,7 +327,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-checkmark-outline"></i>
+                                <i aria-hidden="true" class="fas fa-compress"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Responsive Design</h5>
@@ -299,7 +338,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-color-wand-outline"></i>
+                                <i aria-hidden="true" class="fas fa-hand-peace"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Easy to Use</h5>
@@ -310,7 +349,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-photos-outline"></i>
+                                <i aria-hidden="true" class="fas fa-check"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Perfect Showcase</h5>
@@ -321,7 +360,7 @@
                     <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-videocam-outline"></i>
+                                <i aria-hidden="true" class="fas fa-photo-video"></i>
                             </div>
                             <div class="fancy-content">
                                 <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Video Animation</h5>
@@ -338,7 +377,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 text-right">
-                        <div class="counter"> <i class="ion-ios-folder-outline " aria-hidden="true"></i>
+                        <div class="counter"> <i class="fas fa-save" aria-hidden="true"></i>
                             <div class="counter-date">
                                 <label class="iq-font-white text-uppercase">APP DOWNLOADS</label>
                                 <span class="timer iq-tw-7" data-to="1540" data-speed="10000">1540</span>
@@ -346,7 +385,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 text-right r4-mt-30">
-                        <div class="counter"> <i class="ion-ios-paper-outline " aria-hidden="true"></i>
+                        <div class="counter"> <i class="fas fa-smile" aria-hidden="true"></i>
                             <div class="counter-date">
                                 <label class="iq-font-white text-uppercase">HAPPY CLIENTS</label>
                                 <span class="timer iq-tw-7" data-to="2530" data-speed="10000">2530</span>
@@ -354,7 +393,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 text-right r-mt-30">
-                        <div class="counter"> <i class="ion-ios-person-outline " aria-hidden="true"></i>
+                        <div class="counter"> <i class="fas fa-user-check " aria-hidden="true"></i>
                             <div class="counter-date">
                                 <label class="iq-font-white text-uppercase">ACTIVE ACCOUNTS</label>
                                 <span class="timer iq-tw-7" data-to="8120" data-speed="10000">8120</span>
@@ -362,7 +401,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 text-right r-mt-30">
-                        <div class="counter"> <i class="ion-ios-star " aria-hidden="true"></i>
+                        <div class="counter"> <i class="fas fa-star " aria-hidden="true"></i>
                             <div class="counter-date">
                                 <label class="iq-font-white text-uppercase">TOTAL APP RATES</label>
                                 <span class="timer iq-tw-7" data-to="1620" data-speed="10000">1620</span>
@@ -381,7 +420,7 @@
                             <div class="counter-info-img">
                                 <img class="center-block" src="images/drive/07.png" alt="#">
                                 <div class="waves-box">
-                                    <a href="video/01.m4v" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
+                                    <a href="video/01.m4v" class="iq-video popup-youtube"><i class="fas fa-play"></i></a>
                                     <div class="iq-waves">
                                         <div class="waves wave-1"></div>
                                         <div class="waves wave-2"></div>
@@ -557,15 +596,15 @@
                                 <img src="images/team/01.jpg" class="img-fluid center-block" alt="#">
                             </div>
                             <div class="iq-team-info text-center">
-                                <h5 class="iq-font-black iq-tw-6">JD Adams</h5>
-                                <span class="team-post iq-tw-5">Web Designer</span>
+                                <h5 class="iq-font-black iq-tw-6">MH RIMON </h5>
+                                <span class="team-post iq-tw-5">Founder&CEO</span>
                             </div>
                             <div class="share">
                                 <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-google"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-github"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -576,15 +615,15 @@
                                 <img src="images/team/02.jpg" class="img-fluid center-block" alt="#">
                             </div>
                             <div class="iq-team-info text-center">
-                                <h5 class="iq-font-black iq-tw-6">Rinkal Oberoi</h5>
-                                <span class="team-post iq-tw-5">Web Designer</span>
+                                <h5 class="iq-font-black iq-tw-6">MD Rashedul Islam</h5>
+                                <span class="team-post iq-tw-5">Senior Web Developer</span>
                             </div>
                             <div class="share">
                                 <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-google"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-github"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -595,15 +634,15 @@
                                 <img src="images/team/03.jpg" class="img-fluid center-block" alt="#">
                             </div>
                             <div class="iq-team-info text-center">
-                                <h5 class="iq-font-black iq-tw-6">Jason Deol</h5>
-                                <span class="team-post iq-tw-5">Web Designer</span>
+                                <h5 class="iq-font-black iq-tw-6">A H ANAM</h5>
+                                <span class="team-post iq-tw-5">Frontend Developer</span>
                             </div>
                             <div class="share">
                                 <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-google"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-github"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -619,10 +658,10 @@
                             </div>
                             <div class="share">
                                 <ul>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
-                                    <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-google"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fab fa-github"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -646,7 +685,7 @@
                     <div class="col-sm-5">
                         <div class="iq-services-box text-right iq-font-white">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-monitor-outline"></i>
+                                <i aria-hidden="true" class="fas fa-object-ungroup"></i>
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Easy to Customize</h5>
@@ -668,7 +707,7 @@
                     <div class="col-sm-5">
                         <div class="iq-services-box text-right iq-font-white">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-monitor-outline"></i>
+                                <i aria-hidden="true" class="fas fa-sitemap"></i>
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Easy to Customize</h5>
@@ -689,7 +728,7 @@
                     <div class="col-sm-5">
                         <div class="iq-services-box text-right iq-font-white">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-albums-outline"></i>
+                                <i aria-hidden="true" class="fas fa-sitemap"></i>
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Multipurpose layout</h5>
@@ -711,7 +750,7 @@
                     <div class="col-sm-5">
                         <div class="iq-services-box text-right iq-font-white">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-albums-outline"></i>
+                                <i aria-hidden="true" class="fas fa-object-ungroup"></i>
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Multipurpose layout</h5>
@@ -732,7 +771,7 @@
                     <div class="col-sm-5">
                         <div class="iq-services-box text-right iq-font-white">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-color-wand-outline"></i>
+                                <i aria-hidden="true" class="fas fa-object-ungroup"></i>
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Unique Design</h5>
@@ -754,7 +793,7 @@
                     <div class="col-sm-5">
                         <div class="iq-services-box text-right iq-font-white">
                             <div class="iq-icon">
-                                <i aria-hidden="true" class="ion-ios-color-wand-outline"></i>
+                                <i aria-hidden="true" class="fas fa-object-ungroup"></i>
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Unique Design</h5>
@@ -791,7 +830,7 @@
                     </div>
                     <div class="col-md-12 col-lg-6">
                         <div class="iq-accordion iq-mt-50">
-                            <div class="iq-ad-block ad-active"> <a href="javascript:void(0)" class="ad-title iq-tw-6 iq-font-grey">Ipsum is simply dummy the printing?</a>
+                            <div class="iq-ad-block ad-active"> <a href="javascript:void(0)" class="ad-title"> Ipsum is simply dummy the printing?</a>
                             <div class="ad-details">
                                 <div class="row">
                                     <div class="col-sm-3"><img alt="#" class="img-fluid" src="images/blog/01.jpg"></div>

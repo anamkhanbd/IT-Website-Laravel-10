@@ -42,7 +42,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="iq-footer-box text-right">
                     <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-location-outline"></i>
+                        <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
                     </div>
                     <div class="footer-content">
                         <h4 class="iq-tw-6 iq-pb-10">Address</h4>
@@ -53,7 +53,7 @@
             <div class="col-md-6 col-lg-3 r4-mt-30">
                 <div class="iq-footer-box text-right">
                     <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-telephone-outline"></i>
+                        <i aria-hidden="true" class="fas fa-phone-alt"></i>
                     </div>
                     <div class="footer-content">
                         <h4 class="iq-tw-6 iq-pb-10">Phone</h4>
@@ -67,7 +67,7 @@
             <div class="col-md-6 col-lg-3 r-mt-30">
                 <div class="iq-footer-box text-right">
                     <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-email-outline"></i>
+                        <i aria-hidden="true" class="far fa-envelope"></i>
                     </div>
                     <div class="footer-content">
                         <h4 class="iq-tw-6 iq-pb-10">Mail</h4>
@@ -80,10 +80,10 @@
             </div>
             <div class="col-md-6 col-lg-3 align-self-center">
                 <ul class="info-share">
-                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
-                    <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-google"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-github"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -143,5 +143,7 @@
     <script src="js/custom.js"></script>
     <!-- Style Customizer -->
     <script src="js/style-customizer.js"></script>
+    {{--faq js--}}
+    <script src="js/faq.js"></script>
     </body>
     </html>
